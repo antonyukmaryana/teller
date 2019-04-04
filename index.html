@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Destiny teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+    <h1>Test your destiny</h1>
+    </div>
+      <form id="destiny">
+        <div class="form-group">
+        <p id = question1> How many times did you  see a black cat last week?</p>
+
+          <input type="checkbox" name="destiny" value="1"> so many times!<br>
+          <input type="checkbox" name="destiny" value="1"> I think once or twice<br>
+          <input type="checkbox" name="destiny" value="1"> Not a single time, I missed seeing black cats!<br>
+
+
+          <div class="form-group">
+          <p id = question2>How many times did you stub your toe last week?</p>
+
+            <input type="checkbox" name="destiny" value="1"> so many times!<br>
+            <input type="checkbox" name="destiny" value="1"> I think once or twice<br>
+            <input type="checkbox" name="destiny" value="1"> Not a single time!<br>
+
+            <p id = question3>How many times did you see rainbows last week?</p>
+
+              <input type="checkbox" name="destiny" value="1"> not so many times!<br>
+              <input type="checkbox" name="destiny" value="1"> I think once or twice<br>
+              <input type="checkbox" name="destiny" value="1">So many times!<br>
+
+        </div>
+        <button type="submit" class="btn btn-info">Show my destiny</button>
+        </div>
+      </form>
+      <span class="result" id = "happy">  <p><b> Happy life is ahead you</b></p></span>
+      <span class="result" id = "moderate">  <p><b> Humble life is ahead you</b></p></span>
+      <span class="result" id = "miserable">  <p><b> Miserable life is ahead you</b></p></span>
+
+      </div>
+
+  </body>
+</html>
